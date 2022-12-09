@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroudgoe"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="306dp"
+        android:layout_height="755dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@drawable/petek" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="160dp"
+        android:layout_height="112dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:text="so close but not this time"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="207dp"
+        android:layout_height="105dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="91dp"
+        android:gravity="center"
+        android:text="the word was:"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="602dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="RESTART?"
+        android:textColor="#BF000000"
+        app:iconTint="#FFFFFF" />
+
+
+
+</RelativeLayout>
